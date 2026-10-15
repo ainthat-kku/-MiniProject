@@ -24,6 +24,7 @@ python -m venv .venv
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+.\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
 เบราว์เซอร์จะเปิดแอปที่ `http://localhost:8501` โดยอัตโนมัติ
